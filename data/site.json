@@ -1,0 +1,237 @@
+{
+  "theme": {
+    "brand": "#0ea5e9",
+    "accent": "#10b981",
+    "bg": "#ffffff",
+    "fg": "#0f172a"
+  },
+  "layout": {
+    "containerMax": "1200px",
+    "sectionY": "80px",
+    "heroHeight": "min(92vh, 720px)",
+    "sliderHeight": "380px"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Tours",
+      "href": "/tours"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    },
+    {
+      "label": "Contact",
+      "href": "/#contact"
+    },
+    {
+      "label": "Extra",
+      "href": "/ignored"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Eastern Cape Adventures",
+    "title": "Simple, Scenic Tours from Port Elizabeth",
+    "description": "Uncluttered itineraries, honest pricing, and small-group day trips across the Eastern Cape and Garden Route.",
+    "primaryCta": {
+      "label": "Browse Tours",
+      "href": "/tours"
+    },
+    "secondaryCta": {
+      "label": "About Us",
+      "href": "/about"
+    },
+    "image": "/images/hero.png"
+  },
+  "valueProps": [
+    {
+      "title": "Local Expertise",
+      "description": "Gqeberha-based guides who know the quiet lookouts, best hours for wildlife, and weather patterns."
+    },
+    {
+      "title": "Small Groups",
+      "description": "Max 8 guests per vehicle for a calm pace and more time on the sights you came for."
+    },
+    {
+      "title": "Straightforward Pricing",
+      "description": "No hidden fees\u2014just clear inclusions and rounded ZAR prices."
+    }
+  ],
+  "features": [
+    {
+      "title": "Flexible Pickup",
+      "description": "Hotel, airport, or beachfront. We confirm pickup windows 24 hours before departure."
+    },
+    {
+      "title": "Eco-conscious",
+      "description": "Partner lodges and suppliers that prioritize conservation and community."
+    },
+    {
+      "title": "Secure Payments",
+      "description": "Card or EFT with instant confirmations and printable invoices."
+    }
+  ],
+  "tours": [
+    {
+      "id": "addo-day-safari",
+      "title": "Addo Elephant Park Day Safari",
+      "city": "Addo",
+      "country": "South Africa",
+      "durationDays": 1,
+      "season": "Summer",
+      "priceZAR": 1800,
+      "highlights": ["Big Five viewing", "Picnic lunch", "Professional guide"],
+      "description": "A relaxed, full-day game drive focused on elephant herds and classic Eastern Cape wildlife.",
+      "image": "/images/addo.png"
+    },
+    {
+      "id": "tsitsikamma-suspension-bridges",
+      "title": "Tsitsikamma Suspension Bridges & Forest Walk",
+      "city": "Tsitsikamma",
+      "country": "South Africa",
+      "durationDays": 1,
+      "season": "Spring",
+      "priceZAR": 2200,
+      "highlights": [
+        "Storms River Mouth",
+        "Indigenous forest",
+        "Coastal viewpoints"
+      ],
+      "description": "A gentle day in Tsitsikamma National Park: forest boardwalks, sea spray, and the famous suspension bridges.",
+      "image": "/images/tsitsikamma.png"
+    },
+    {
+      "id": "sardinia-bay-sunset",
+      "title": "Sardinia Bay Sunset Stroll",
+      "city": "Gqeberha",
+      "country": "South Africa",
+      "durationDays": 1,
+      "season": "Summer",
+      "priceZAR": 900,
+      "highlights": ["Golden dunes", "Photo stop", "Beach walk"],
+      "description": "An easy evening outing to watch the sun drop into the Indian Ocean from sheltered dunes.",
+      "image": "/images/sardinia.png"
+    },
+    {
+      "id": "garden-route-taster",
+      "title": "Garden Route Taster (2 Days)",
+      "city": "Knysna & Wilderness",
+      "country": "South Africa",
+      "durationDays": 2,
+      "season": "Autumn",
+      "priceZAR": 4200,
+      "highlights": [
+        "Knysna Heads",
+        "Wilderness viewpoints",
+        "Lakes & forests"
+      ],
+      "description": "A calm sampler of the Garden Route with one overnight in Knysna and scenic stops along the coast.",
+      "image": "/images/gardenroute.png"
+    },
+    {
+      "id": "graaff-reinet-karoo",
+      "title": "Graaff-Reinet & Valley of Desolation",
+      "city": "Graaff-Reinet",
+      "country": "South Africa",
+      "durationDays": 1,
+      "season": "Winter",
+      "priceZAR": 2500,
+      "highlights": [
+        "Valley of Desolation",
+        "Karoo architecture",
+        "Panoramic views"
+      ],
+      "description": "A big-sky day out: historic streets, fossil-rich landscapes, and golden afternoon light over the Karoo.",
+      "image": "/images/valley.png"
+    },
+    {
+      "id": "jeffreys-bay-surf",
+      "title": "Jeffreys Bay Coast & Craft",
+      "city": "Jeffreys Bay",
+      "country": "South Africa",
+      "durationDays": 1,
+      "season": "Spring",
+      "priceZAR": 1600,
+      "highlights": ["Supertubes viewpoint", "Shell museum", "Coffee stop"],
+      "description": "Coastal viewpoints and local makers in South Africa\u2019s surf capital\u2014easy pace and scenic drives.",
+      "image": "/images/jbay.png"
+    },
+    {
+      "id": "baviaanskloof-pass",
+      "title": "Baviaanskloof Pass & Picnic",
+      "city": "Baviaanskloof",
+      "country": "South Africa",
+      "durationDays": 1,
+      "season": "Autumn",
+      "priceZAR": 2600,
+      "highlights": ["Mountain pass", "River picnic", "Birdlife"],
+      "description": "A rugged yet unrushed day along the Baviaanskloof passes\u2014views, river bends, and quiet backroads.",
+      "image": "/images/baviaans.png"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "The Addo day tour was perfectly paced\u2014saw elephants within an hour!",
+      "name": "Lauren M."
+    },
+    {
+      "quote": "Clean vehicles, friendly guide, and no rushing. Exactly what we wanted.",
+      "name": "Pieter V."
+    },
+    {
+      "quote": "We loved the Garden Route taster. Calm itinerary with beautiful stops.",
+      "name": "Rina & Dan"
+    }
+  ],
+  "faq": [
+    {
+      "q": "What is your group size?",
+      "a": "Most tours run with 4\u20138 guests. Private departures on request."
+    },
+    {
+      "q": "Are park fees included?",
+      "a": "Yes\u2014national park and conservancy fees are included unless noted."
+    },
+    {
+      "q": "Do you offer hotel pickup?",
+      "a": "Yes. We confirm a 30\u201345 min pickup window by SMS/WhatsApp."
+    },
+    {
+      "q": "Can I pay by card?",
+      "a": "Yes. We accept major cards and EFT. Receipts are emailed instantly."
+    },
+    {
+      "q": "What should I pack?",
+      "a": "A light jacket, hat, sunscreen, reusable bottle, and comfortable shoes."
+    },
+    {
+      "q": "What if the weather turns?",
+      "a": "Safety first\u2014we adapt the schedule or offer a fair alternative."
+    }
+  ],
+  "contact": {
+    "phone": "+27 41 555 0123",
+    "whatsapp": "+27 82 555 0456",
+    "email": "hello@travelagency.elixflare.com",
+    "address": "Beachfront Road, Summerstrand, Gqeberha, 6001",
+    "mapQuery": "TravelAgency Elixflare, Port Elizabeth",
+    "mapEmbedSrc": "https://maps.google.com/maps?q=Port%20Elizabeth%2C%20South%20Africa&z=12&output=embed"
+  },
+  "routes": {
+    "toursRoot": "/tours"
+  },
+  "org": {
+    "brandName": "TravelAgency Elixflare",
+    "domain": "https://TravelAgency.elixflare.com",
+    "social": {
+      "instagram": "#",
+      "facebook": "#",
+      "x": "#",
+      "youtube": "#"
+    }
+  }
+}
